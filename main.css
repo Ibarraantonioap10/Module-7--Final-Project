@@ -1,0 +1,171 @@
+html {
+  padding: 0; /* My html padding is 0. */
+}
+head {
+  color: black; /* My head color is black ic color. */
+}
+meta {
+  color: black; /* My meta color is black in color. */
+}
+title {
+  padding: 0; /* My tittle padding is 0. */
+}
+link {
+  padding: 0; /* My link padding is 0. */
+}
+body {
+  color: black; /* My body is black in color. */
+  background-color: #ff9900; /* green body background color */
+  max-width: 100%;
+  height: auto;
+}
+header {
+  color: black; /* My header is black in color. */
+}
+nav {
+  color: black; /* My nav is b=black in color */
+}
+main {
+  color: black; /* My main is black in color */
+}
+/* Styling the unordered list */
+ul {
+  list-style-type: none; /* Removing the bullet points */
+  margin-left: 20px; /* Indenting the list */
+  margin-bottom: 12px; /* Adding some space below the list */
+  background-color: black; /* My background-color is black. */
+}
+li {
+  padding: 0%; /* My li padding is 0. */
+}
+ul li {
+  margin-bottom: 5px; /* Adding some space below each list item */
+  color: blue; /* Grayish-blue text color */
+}
+img {
+  width: 50%; /* My image will be 380px. */
+  padding-left: 40%; /* My image will be in the center page. */
+}
+/* My h1, h2, h3, h4, h5, are green in color for visible eye sight. */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: black;
+  font-size: 30px;
+  padding-left: 15px;
+}
+main {
+  color: black; /* My main is black in color. */
+}
+section {
+  color: black; /* My section is black in color */
+}
+div ul {
+  list-style-type: square; /* Adding the bullet points back */
+}
+/* My div is black in color. */
+div {
+  color: black;
+}
+/* My p Is black in color, my font-size it 16px, margin-bottom is 12px and background-color is gray. */
+p {
+  font-size: 16px; /* 16px is the default font size */
+  color: black; /* Grayish-blue */
+  margin-bottom: 12px; /* Adding some space below the paragraph */
+  background-color: gray; /* Adding gray to my background-color */
+}
+p a {
+  color: blue; /* Applies the red text color to the link within a paragraph block but not to the entire paragraph */
+  text-decoration: none; /* Removing the underline */
+}
+a {
+  padding: 0; /* my a padding is 0. */
+}
+/* My video and audio padding is 575px. */
+video,
+audio {
+  max-width: 150%; /* My video and audio will be in the center of the page. */
+  padding-left: 40%; /* My video audio padding-left is 77%. */
+}
+form {
+  padding: 0; /* My form my padding is 0. */
+}
+label {
+  padding: 0; /* My labels padding is 0. */
+}
+input {
+  padding: 0; /* My input padding is 0. */
+}
+br {
+  padding: 0; /* My br padding is 0. */
+}
+select {
+  padding: 0; /* my select padding is 0. */
+}
+option {
+  padding: 0; /* My option padding is 0. */
+}
+textarea {
+  padding: 0; /* My textarea padding is 0. */
+}
+.external-css {
+  color: black; /* Teal text color */
+  background-color: gray; /* My background-color is gray. */
+}
+.menu {
+  display: flex; /* My menu will have a display flex. */
+  justify-content: space-around; /* My justify-content will be space around. */
+}
+/* General styling using a class */
+.feature-card {
+  border: 2px solid #7f8c8d; /* Grayish-blue */
+  padding: 20px; /* Adding some space inside the card */
+  margin: 20px; /* Adding some space outside the card */
+  background-color: gold; /* Blue background color for the class. */
+}
+/* Styling h2 within a class */
+.feature-card h2 {
+  font-size: 20px; /* 20px is the default font size */
+  margin-bottom: 10px; /* Adding some space below the heading */
+  color: #2c3e50; /* Deep blue text color */
+}
+.feature-card p {
+  margin-bottom: 10px; /* Adding some space below the paragraph */
+  color: blue; /* Grayish-blue text color */
+}
+#special-feature {
+  background-color: blue; /* Light gold background color for the id special feature */
+  border-color: #f39c12; /* Gold border color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a shadow */
+}
+a {
+  display: inline-block; /* Making the link a block element */
+  color: white; /* Bright blue text color */
+  text-decoration: none; /* Removing the underline */
+  padding: 5px 10px; /* Adding some space inside the link */
+  border: 1px solid #3498bd; /* Bright blue border color */
+  transition: all 0.3s ease; /* Adding a transition */
+}
+a:hover {
+  background-color: blue; /* bright blue background color */
+  color: white; /* WHite text color */
+}
+button {
+  padding: 5px 10px; /* Adding some space inside the button */
+  border: none; /* Removing the border */
+  background-color: #ecf0f1; /* Light gray background color */
+  cursor: pointer; /* Changing the cursor to a pointer */
+  transition: all 0.3s ease; /* Adding a transition */
+}
+/* Conditional styling for the hover state */
+button:hover {
+  background-color: red; /* Red background color */
+}
+footer {
+  color: black; /* My footer is black in color */
+}
+address {
+  padding: 0; /* My address padding is 0. */
+}
