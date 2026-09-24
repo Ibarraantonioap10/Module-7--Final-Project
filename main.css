@@ -74,7 +74,7 @@ p {
   font-size: 16px; /* 16px is the default font size */
   color: black; /* Grayish-blue */
   margin-bottom: 12px; /* Adding some space below the paragraph */
-  background-color: gray; /* Adding gray to my background-color */
+  background-color: gold; /* Adding gray to my background-color */
 }
 p a {
   color: blue; /* Applies the red text color to the link within a paragraph block but not to the entire paragraph */
