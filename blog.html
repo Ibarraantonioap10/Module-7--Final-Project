@@ -1,0 +1,157 @@
+<!doctype html>
+<!-- This part of the code is to show how to use the elements and what goes inside correctly. -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog page</title>
+    <!-- I will use links so that you can see my css code and my index code when clicking on the link. -->
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      /* General styling using a class */
+      .feature-card {
+        border: 2px solid #7f8c8d; /* Grayish-blue */
+        padding: 20px; /* Adding some space inside the card */
+        margin: 20px; /* Adding some space outside the card */
+        background-color: gold; /* Blue background color for the class. */
+      }
+      /* Styling h2 within a class */
+      .feature-card h2 {
+        font-size: 20px; /* 20px is the default font size */
+        margin-bottom: 10px; /* Adding some space below the heading */
+        color: #2c3e50; /* Deep blue text color */
+      }
+      .feature-card p {
+        margin-bottom: 10px; /* Adding some space below the paragraph */
+        color: blue; /* Grayish-blue text color */
+      }
+      #special-feature {
+        background-color: blue; /* Light gold background color for the id special feature */
+        border-color: #f39c12; /* Gold border color */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a shadow */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- In the header content I will show what codes go inside. -->
+      <nav>
+        <!-- I will show you the list of the names. -->
+        <ul class="menu">
+          <li><a href="index.html">Index</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="desktops.html">Desktops</a></li>
+          <li><a href="graphics_cards.html">Graphics_Cards</a></li>
+          <li><a href="monitors.html">Monitors</a></li>
+          <li><a href="forms.html">Forms</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+      <h1>
+        In this blog page you find information on the Amazon company and
+        sponsored commercials.
+      </h1>
+    </header>
+    <main>
+      <section>
+        <!-- main content typically goes here like a photo. -->
+        <!-- what goes inside the second div is h2 and an image followed by a paragraph. -->
+        <div>
+          <h2>Main HeadQuarters</h2>
+          <img src="images/head.HQ.png" alt="Amazon Headquarters picture" />
+          <p class="feature-card">
+            <!-- This is where my paragraphs begin. -->
+            Here at Amazon we work a team to make sure your package gets
+            delivered on time with no delays. You have the option to track your
+            package and view details on where and what time your package will
+            arrive with the new system Amazon Map Tracking you can see when your
+            package leaves the warehouse bring smiles to homes.
+          </p>
+        </div>
+      </section>
+      <!-- main content typically goes here like a photo. -->
+      <section id="photos">
+        <!-- example of a single div set and what goes inside like a h3 and the image followed by a paragraph.-->
+        <!-- Heading for the video section -->
+        <h3>Commercial on Amazon and what its all about</h3>
+        <div>
+          <!-- The 'controls' attribute adds video controls, like play, pause, and volume -->
+          <video width="320" height="240" controls>
+            <!-- Source for the video file -->
+            <!-- The 'src' attribute specifies the path to the video file -->
+            <source src="media/video.mp4" type="video/mp4" />
+          </video>
+          <audio id="audio-video" controls>
+            <source src="media/audio.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+          <!-- Fallback content in case the video isn't supported -->
+          <p>
+            Here is a video of a Amazon community and how they work together to
+            help you with on time delivery and good customer service.
+          </p>
+        </div>
+      </section>
+      <section>
+        <!-- what goes in the third div is h4 and an image followed by a paragraph. -->
+        <div>
+          <h4>Amazon Warehouse</h4>
+          <img src="images/blog.png" alt="Amazon warehouse employees picture" />
+          <p class="feature-card" id="special-feature">
+            <!-- This is where my p paragraphs begin. -->
+            Here at Amazon we work 24/7 around the clock to make sure we have
+            your package secure and ready for delivery so that you can enjoy our
+            product with no delays.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <!-- what goes in the fifth div is h5 and an image followed by a paragraph. -->
+          <h5>Amazon Employee Team groups</h5>
+          <img src="images/blog1.png" alt="Amazon employee picture" />
+          <p id="special-feature-team">
+            <!-- This is where my p paragraphs begin. -->
+            Here at Amazon we are all family making sure everyone is happy and
+            treated with a level of respect so that everyone feels at home. In
+            every warehouse in the world we make sure you are getting good hours
+            and if there is any problem at home we can work with anyone to
+            adjust your schedule so that you can work stress-free.
+          </p>
+        </div>
+        <!--The beginning of the footer element goes here. -->
+        <footer>
+          <!-- my address begins here. -->
+          <address>
+            <p>410 Terry Avenue North, Seattle, Washington 98109-1226, USA.</p>
+          </address>
+          <p>Amazon Social Media Links At the bottom</p>
+          <p>
+            <a href="https://x.com/amazon">X</a>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/amazon/">Instagram</a>
+          </p>
+          <p>
+            <a href="https://www.facebook.com/Amazon/">Facebook</a>
+          </p>
+          <!--In the footer will belong a p and the copy right of Amazon COMPANY Website link -->
+          <p>
+            Copyright 2026 Amazon Company.
+            <a href="https://www.amazon.com/"> Amazon official website</a>
+          </p>
+          <p>
+            &copy; Copyright 2026 Github.
+            <a
+              href="https://github.com/Ibarraantonioap10/Ibarraantonioap10.github.io.git"
+              >Github</a
+            >
+          </p>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
