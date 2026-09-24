@@ -28,6 +28,29 @@ nav {
 main {
   color: black; /* My main is black in color */
 }
+/* My tables starts here. */
+table {
+  color: black;
+  border-collapse: collapse;
+  width: 100%;
+}
+/* MY caption color is black. */
+caption {
+  color: black;
+}
+/* My thead color is black in color. */
+thead {
+  color: black;
+}
+/* My tbody is black in color. */
+tbody {
+  color: black;
+}
+td {
+  border: 1px solid black;
+  padding: 8px;
+  color: green;
+}
 /* Styling the unordered list */
 ul {
   list-style-type: none; /* Removing the bullet points */
@@ -43,7 +66,7 @@ ul li {
   color: blue; /* Grayish-blue text color */
 }
 img {
-  width: 50%; /* My image will be 380px. */
+  width: 30%; /* My image will be 380px. */
   padding-left: 40%; /* My image will be in the center page. */
 }
 /* My h1, h2, h3, h4, h5, are green in color for visible eye sight. */
