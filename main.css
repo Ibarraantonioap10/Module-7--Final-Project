@@ -79,9 +79,6 @@ h5 {
   font-size: 30px;
   padding-left: 15px;
 }
-main {
-  color: black; /* My main is black in color. */
-}
 section {
   color: black; /* My section is black in color */
 }
@@ -103,9 +100,7 @@ p a {
   color: blue; /* Applies the red text color to the link within a paragraph block but not to the entire paragraph */
   text-decoration: none; /* Removing the underline */
 }
-a {
-  padding: 0; /* my a padding is 0. */
-}
+
 /* My video and audio padding is 575px. */
 video,
 audio {
